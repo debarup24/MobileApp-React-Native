@@ -8,7 +8,7 @@ const TextInputComponent = () => {
       <Text style={styles.headerText}>TextInput component</Text>
       <TextInput
         value={value}
-        placeholder="Type here"
+        placeholder="placeholder"
         style={styles.input}
         onChangeText={setValue}
       />
