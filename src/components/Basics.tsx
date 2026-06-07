@@ -34,7 +34,23 @@ function Basics() {
               uri: 'https://randomimageurl.com/assets/images/local/20260103_0523_Crystal%20Clear%20Image_simple_compose_01ke20cjm8fpwaa2qja1gjs7mn_compressed_q80.jpeg',
             }}
           />
+          <Image
+            style={styles.myImage}
+            source={{
+              uri: 'https://randomimageurl.com/assets/images/local/20260103_0523_Crystal%20Clear%20Image_simple_compose_01ke20cjm8fpwaa2qja1gjs7mn_compressed_q80.jpeg',
+            }}
+          />
+          <Image
+            style={styles.myImage}
+            source={{
+              uri: 'https://randomimageurl.com/assets/images/local/20260103_0523_Crystal%20Clear%20Image_simple_compose_01ke20cjm8fpwaa2qja1gjs7mn_compressed_q80.jpeg',
+            }}
+          />
           {/* Local Img */}
+          <Image
+            style={styles.myImage}
+            source={require('../../assets/dhurandhar.jpg')}
+          />
           <Image
             style={styles.myImage}
             source={require('../../assets/dhurandhar.jpg')}

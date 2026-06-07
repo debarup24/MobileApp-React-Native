@@ -1,4 +1,4 @@
-import { StyleSheet, Text, TextInput, View } from 'react-native';
+import { ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
 import React, { useState } from 'react';
 
 const TextInputComponent = () => {
@@ -8,10 +8,10 @@ const TextInputComponent = () => {
       <Text style={styles.headerText}>TextInput component</Text>
       <TextInput
         value={value}
-        placeholder="placeholder"
+        placeholder="placeholde"
         style={styles.input}
         onChangeText={setValue}
-      />
+      />{' '}
     </View>
   );
 };
